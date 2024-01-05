@@ -1,0 +1,21 @@
+{
+  "name": "Clara",
+  "vendor": "hossain.cc",
+  "appId": "cc.hossain.browser",
+  "binaryName": "Clara-browser",
+  "version": {
+    "product": "firefox",
+    "version": "121.0"
+  },
+  "buildOptions": {
+    "windowsUseSymbolicLinks": false
+  },
+  "addons": {},
+  "brands": {},
+  "license": {
+    "ignoredFiles": [
+      ".*\\.json"
+    ],
+    "licenseType": "MPL-2.0"
+  }
+}
