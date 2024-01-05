@@ -1,3 +1,7 @@
+# Browser branding
+ac_add_options --with-ccache=sccache
+ac_add_options --without-wasm-sandboxed-libraries
+
 ac_add_options --with-app-name=${binName}
 export MOZ_USER_DIR="${name}"
 export MOZ_APP_VENDOR="${vendor}"
@@ -14,7 +18,7 @@ export MOZ_DISTRIBUTION_ID=${appId}
 # Misc
 export MOZ_STUB_INSTALLER=1
 export MOZ_INCLUDE_SOURCE_INFO=1
-export MOZ_SOURCE_REPO=https://github.com/dothq/browser-desktop
+export MOZ_SOURCE_REPO=https://github.com/kazisean/clara
 export MOZ_SOURCE_CHANGESET=${changeset}
 
 # Bootstrap

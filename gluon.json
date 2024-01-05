@@ -8,10 +8,36 @@
     "version": "121.0"
   },
   "buildOptions": {
-    "windowsUseSymbolicLinks": false
+    "generateBranding": true
   },
-  "addons": {},
-  "brands": {},
+  "addons": {
+    "ublock": {
+      "platform": "github",
+      "id": "uBlock0@raymondhill.net",
+      "repo": "gorhill/uBlock",
+      "version": "1.54.0",
+      "fileGlob": "uBlock0_*.firefox(.signed)?.xpi"
+    }
+  },
+  "brands": {
+    "stable": {
+      "backgroundColor": "#2B2A33",
+      "brandShorterName": "Clara",
+      "brandShortName": "Clara Browser",
+      "brandFullName": "Clara Browser",
+      "release": {
+        "displayVersion": "0.0.1",
+        "github": {
+          "repo": "kazisean/clara"
+        },
+        "x86": {
+          "windowsMar": "windows.mar",
+          "macosMar": "macosIntel.mar",
+          "linuxMar": "linux.mar"
+        }
+      }
+    }
+  },
   "license": {
     "ignoredFiles": [
       ".*\\.json"
